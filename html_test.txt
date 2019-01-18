@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<style>
+
+table{
+	border-collapse:none;
+    width:100%;
+}
+
+th,td{
+	border:2px solid #bbbbbb;
+    text-align: center;
+    padding:1px;
+}
+
+
+
+
+a:link{
+	color:pink;
+    background-color:powderblue;
+    text-decoration:none;
+}
+
+a:visited{
+	color:powderblue;
+    background-color:pink;
+    text-decoration:none;
+}
+
+a:hover{
+	color:red;
+    background-color:green;
+    text-decoration:underline;
+}
+
+a:active{
+	color:green;
+    background-color:red;
+    text-decoration:underline;
+}
+
+
+
+#yoyo {
+	color:red;
+	background-color: powderblue;
+    font-family:verdana;
+    font-size:200%;
+    padding:2px;
+    margin:10px;
+}
+
+h5{
+	border: 4px solid blue;
+	background-color:red;
+    font-family:verdana;
+    font-size: 60px;
+    padding:3px;
+    margin:50px;
+}
+
+errortest.error{
+	color:rgb(10,200,30);
+    background-color:rgb(200,50,50);
+    font-size:60px;
+    padding:2px;
+    margin:90px;
+}
+
+</style>
+
+<!--
+
+외부 CSS
+<link rel = "stylesheet" href = "styles.css">
+
+
+styles.css 파일구조
+
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+-->
+
+
+</head>
+
+<body>
+
+<h1>큰글씨는 h1부터</h1>
+<h6>h6까지</h6>
+
+<p>단락은 p</p>
+
+
+<a href = "https:\\www.w3schools.com"> 링크는 a href</a>
+
+<!--
+_blank - 새 창이나 탭에서 링크 된 문서를 엽니다.
+_self - 클릭 한 것과 동일한 창 / 탭에서 링크 된 문서를 엽니다 (기본값).
+_parent - 링크 된 문서를 부모 프레임에 엽니다.
+_top - 창 전체에서 링크 된 문서를 엽니 다.
+framename - 명명된 프레임에 링크 된 문서를 엽니다.-->
+
+<a href = "https:\\www.w3schools.com" target = "_top">
+
+<br>
+<br>
+
+<img src = "w3schools.jpg" width = "100" height = "130">
+
+<br>
+
+<button>버튼</button>
+
+
+<ul>
+	<li>ul 목록1</li>
+    <li>ul 목록2</li>
+    <li><a href = "https:\\www.w3schools.com"><button> 버튼목록1</button></a></li>
+    <li><a href = "https:\\www.google.com"><button> 버튼목록2</button></a></li>
+</ul>
+
+<ol>
+	<li>ol 목록1</li>
+    <li>ol 목록2</li>
+    <li><a href = "https:\\www.w3schools.com"><button> 버튼목록1</button></a></li>
+    <li><a href = "https:\\www.google.com"><button> 버튼목록2</button></a></li>
+</ol>
+
+br은 <br> 줄 <br>바 <br>꿈<br><br>
+
+<hr>
+<h3>hr은 수평선</h3>
+<hr>
+
+<a href ="https:\\www.w3schools.com"><button><p style ="color:blue">파랑버튼</p></button></a><br>
+<p style = "background-color:powderblue">style = "background-color : powderblue"</p>
+<p style = "font-size:200%">style = "font-size:200%"</p>
+<p style = "font-size:500%">style = "font-size:500%"</p>
+<p style = "font-size:60px;">style = "font-size:60px;"  폰트사이즈</p>
+<p style = "border: 2px solid tomato"> style = border : 두깨px solid 색상 </p>
+<p style = "border: 2px solid rgb(100,100,100,0.9)">rgb(r,g,b,투명도) 색상 테스트</p>
+
+
+<a title = '이게 title =" "'>마우스 가져다대봐</a>
+
+
+<pre>
+pre는 고정 너비,글꼴,간격,줄바꿈
+시작과 끝 사이에 작성하는 그대로 출력
+</pre>
+
+
+<h1 style = "text-align:center">가운데 정렬</h1>
+
+<b> b 굵은 텍스트</b><br>
+<strong> strong 중요 텍스트</strong> <br>
+<i> i 기울임 꼴 텍스트</i> <br>
+<em> em 강조된 텍스트 </em><br>
+<mark> mark 표시된 텍스트 </mark><br>
+<small> small 작은 텍스트 </small><br>
+<del> del 삭제 된 텍스트</del><br>
+<ins> ins 삽입 된 텍스트</ins><br>
+<sub> sub 아래로 쳐진 텍스트</sub>
+중간 일반 텍스트
+<sup> sup 위로 뜬 텍스트</sup><br>
+
+<q> q 짧은 인용문 </q>
+<blockquote cite = "https:\\www.google.com">blockquote cite = "" 긴 인용문 (들여쓰기)</blockquote>
+
+<abbr title = "준말을 굳이 이렇게 알려줘야 하냐?">준냐?</abbr>
+<br><br>
+<address> address라고는 하는데 그냥 그렇다고 한다...</address>
+<p><cite> cite 제목이라고하는데 쓸데없다...</cite></p>
+bdo dir = "rtl"<bdo dir = "rtl"><br> 글을쓰면 거꾸로보여준다 재미있고 쓸모없다.</bdo>
+
+<hr>
+<!-- 주석입니다-->
+<hr>
+
+
+<h5> 인터널 CSS 잘적용되었나?</h5>
+<h5> 패딩 3px,마진 50px</h5>
+
+<p id="yoyo">id 적용</p>
+
+<errortest class ="error"> 클래스테스트</errortest>
+
+<table>
+<tr>
+	<th>fst</th>
+    <th>snd</th>
+    <th colspan ="2">trd</th>
+</tr>
+
+<tr>
+	<td rowspan="2">1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+</tr>
+
+
+</table>
+
+
+
+
+</body>
+</html>
